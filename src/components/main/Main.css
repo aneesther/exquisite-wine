@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+    height: 800px;
+    background-image: url('/public/images/bottles.png');
+}
+.hero-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:  718px;
+    height: 312px;
+    gap: 32px;
+}
+.taste-box{
+    width: 718px;
+    height: 144px;
+    font-family: 'Playfair Display';
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.browse-box{
+    width: 718px;
+    height: 32px;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.explore-box{
+    width: 228px;
+    height: 72px;
+    padding: 24px 48px 24px 48px;
+    gap: 8px;
+    border-radius: 12px;
+    background: #80295E;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mainagin{
+    display: flex;
+    width: 100%;
+    padding-top: 97px;
+}
+.mainule{
+    width: 50%;
+    height: 700px;
+}
+.picky-wine{
+    width: 100%;
+    height: 700px;
+}
+.lopan{
+    width: 50%;
+    height: 700px;
+    padding: 175px 111px 175px 111px;
+}
+.paggy-pan{
+    display: flex;
+    flex-direction: column;
+    width:421px;
+    height: 420px;
+    gap: 32px;
+}
+.classy-pass{
+    width: 421px;
+    height: 44px;
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 44px;
+    text-align: left;
+    color: #411530;
+} 
+.email-reset-con{
+    display: flex;
+    flex-direction: column;
+    width: 421px;
+    height: 288px;
+    gap: 28px;
+} 
+.permail{
+    display: flex;
+    flex-direction: column;
+    width: 421px;
+    height: 88px;
+    gap: 8px;
+}  
+.mail-set-con{
+    width: 421px;
+    height: 24px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+}
+.reset-button{
+    width: 421px;
+    height:56px;
+    padding: 16px 32px 16px 32px;
+    gap: 8px;
+    border-radius: 8px;
+    background: #80295E;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.alset{
+    width: 421px;
+    height: 24px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #411530;
+}

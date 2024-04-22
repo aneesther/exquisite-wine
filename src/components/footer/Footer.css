@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.main-foot{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding: 64px;
+    gap: 192px;
+    background: #80295E;
+    margin-top: 200px;
+}
+.pan-head{
+    display: flex;
+    flex-direction: column;
+    width: 466px;
+    height:208px;
+    gap: 32px;
+}
+.panwines{
+    width: 166px;
+    height: 32px;
+    padding: 4px;
+    gap: 8px;
+    padding-bottom: 24px;
+    color: #FFFFFF;
+    font-size: 29px;
+    font-weight: 900;
+    text-align: left;
+}
+.luxury{
+    width: 466px;
+    height: 144px;
+    font-family: 'Playfair Display';
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+   color: #FFFFFF;
+}
+.home-con{
+    display: flex;
+    width: 580px;
+    height:200px;
+    gap: 40px;
+}
+.homepage{
+    width: 250px;
+    height: 200px;
+}
+.contact{
+    width: 250px;
+    height: 160px;
+}
+.hommy{
+    width: 310px;
+    height: 40px;
+    padding: 8px ;
+    gap: 8px;
+}
+.hp{
+    width: 290px;
+    height: 24px;
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.auth{
+    display: flex;
+    flex-direction: column;
+    width: 127px;
+    height: 160px;
+    padding: 8px;
+    gap: 14px;
+    opacity: 0.8px;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 350;
+    line-height: 24px;
+    text-align: left;
+    color:  #FFFFFF;
+}
+.con-tact{
+    width: 290px;
+    height:40px;
+    padding: 8px;
+    gap: 8px;
+}
+.conny{
+    width: 290px;
+    height: 24px;
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.info-con{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120px;
+    gap: 13px;
+    padding: 8px;
+    opacity: 0.8px;
+    font-family: 'Inter';
+    font-size: 13px;
+    font-weight: 350;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+

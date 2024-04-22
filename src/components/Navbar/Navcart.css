@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.nav-cart{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    padding: 30px 4.444%;
+    justify-content: space-between;
+    background-color: #411530;
+}
+.cart-pan{
+    width: 156px;
+    height: 37.38px;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.hom-carte{
+    display: flex;
+    margin-right: 106px;
+    gap: 20px;
+}
+.hom-carty{
+    width: 69px;
+    height: 26.17px;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.pro-carty{
+    width: 92px;
+    height: 26.17px;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.pan-shop-cart{
+    display: flex;
+    height: 28px;
+}
+.shop-carty{
+    width: 175px;
+    height: 26.17px;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
+}
