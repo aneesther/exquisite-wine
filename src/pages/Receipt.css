@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.major{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    background-color: lightcoral;
+}
+.main-receipt{
+    align-items: center;
+    width: 414px;
+    height: 700px;
+    background: #FFFFFF;
+}
+.receipt-auth{
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+    align-items: center;
+    gap: 5px;
+}
+.pan-receipt{
+    width: 156px;
+    height: 40px;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    color: #411530;
+}
+.streceipt{
+    width: 366px;
+    height: 24px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #121212;
+}
+.receipt-info{
+    display: flex;
+    flex-direction: column;
+}
+#medu-tran{
+    width: 200px;
+    height: 24px;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #411530;
+    background-color: blue;
+}

@@ -8,6 +8,8 @@ import SignUp from "../pages/SignUp";
 import ShopCartA from "../pages/ShopCartA";
 import ShopCartPage from "../pages/ShopCartPage";
 import Reset from "../pages/Reset";
+import CheckOutPage from "../pages/CheckOutPage";
+import Receipt from "../pages/Receipt";
 
 
 
@@ -44,6 +46,14 @@ import Reset from "../pages/Reset";
         {
           path: "/reset",
           element: <Reset/>
+        },
+        {
+          path: "/checkout",
+          element: <CheckOutPage/>
+        },
+        {
+          path: "/receipt",
+          element: <Receipt/>
         },
       ]
     },

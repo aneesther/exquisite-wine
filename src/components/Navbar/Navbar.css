@@ -83,13 +83,7 @@ input[type='search']{
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid #828282;
 }
-/* input[type='search']::placeholder{
-    background: url('./images/Left\ Icon.png');
-    background-repeat: no-repeat;
-    padding-left: 24px;
-    /* height: 56px; */
-    /* background-size: 18px; */
-/* } */ 
+
 input[type='search']::placeholder{
     background: url("/public/images/Vector.png");
     background-repeat: no-repeat;

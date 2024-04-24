@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.outpage-main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+.smal-writeup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.bigg-tic{
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+.trans{
+    width: 318px;
+    height: 36px;
+    font-family: 'Inter';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #121212;
+}
+.col-pay{
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 64px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #000000B2;
+}
+.double-bt{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 100px;
+    align-items: center;
+}
+.firstcheck-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 90px;
+    background: #411530;
+    border-radius: 10px ;
+}
+.print-rec{
+    width: 200px;
+    height: 36px;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.secondcheck-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 90px;
+    background: #411530;
+    border-radius: 10px ;
+    color: #FFFFFF;
+
+}
+.go-rec{
+    width: 284.62px;
+    height: 36px;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+}

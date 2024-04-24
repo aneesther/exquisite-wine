@@ -23,12 +23,17 @@ function Navbar() {
                <img src='/images/cart.png' alt='cart' className='cart'/>
             </div>
             <div className='button-nav'>
-               <div className='first-nav'>
-                  <Link to={'/login'}> <p>Login</p></Link>
-               </div>
-               <div className='sec-nav'>
-                  <Link to={'/signup'}> <p>Sign Up</p></Link>
-               </div>
+               <Link to={"/login"}>
+                  <div className='first-nav'>
+                    <p>Login</p>
+                  </div>
+               </Link>
+
+               <Link to={"signup"}>
+                    <div className='sec-nav'>
+                      <p>Sign Up</p>
+                    </div>
+               </Link>
             </div>
           </div>
        </div>
